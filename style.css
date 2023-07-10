@@ -10,21 +10,32 @@ body{
 }
 
 /* Header section style start */
-header{
-    height: 100vh;
-    background-color: #E554731A;
-}
-.header-container{
+/* .space{
+    padding: 30px 30px 0px 150px;
     display: flex;
+    align-items: center;
+} */
+.header-container{
+    height: 100vh;
+    display: flex;
+    background-color: #E554731A;/
+}
+
+.header-contain{
     justify-content: center;
     align-items: center;
+    padding: 30px 30px 0px 100px;
+    display: flex;
+    align-items: center;
+
 }
 .header-img{
-    width: 521px;
+    width: 300px;
+    margin-top: 123px;
 }
 .header-title{
     color: #272727;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 800;
 }
 .header-description{
@@ -41,4 +52,75 @@ header{
     border: 0px;
     padding: 10px 20px;
     margin-top: 20px;
+}
+
+/* Main section title start */
+.flower-buy-section{
+    height: 150vh;
+}
+.first-section-contain{
+    text-align: center;
+    margin-top: 130px;
+}
+.section-title{
+    color: #272727;
+    font-size: 40px;
+}
+.section-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+}
+
+/* main section flowers buy section */
+.section-images-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.box-1{
+    height: 350px;
+    width: 250px;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 300px 300px 0px 0px;
+    text-align: center;
+    padding: 30px;
+    background: #A7216226;
+}
+.box-2{
+    height: 350px;
+    width: 250px;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 300px 300px 0px 0px;
+    text-align: center;
+    padding: 30px;
+    background: #0597A026;
+}
+.box-3{
+    height: 350px;
+    width: 250px;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 300px 300px 0px 0px;
+    text-align: center;
+    padding: 30px;
+    background: #477D1126;
+}
+
+.flower-icon{
+    width: 200px;
+    margin-top: 105px;
+}
+.icon2{
+    margin-top: 80px;
+}
+
+.flower-name{
+    color: #272727;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    font-size: 24px;
+    text-decoration-line: underline;
 }
