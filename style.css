@@ -82,7 +82,7 @@ body{
     height: 350px;
     width: 250px;
     box-shadow: 4px 4px 8px rgb(201, 201, 201);
-    border-radius: 300px 300px 0px 0px;
+    border-radius: 300px 300px 5px 5px;
     text-align: center;
     padding: 30px;
     background: #A7216226;
@@ -91,7 +91,7 @@ body{
     height: 350px;
     width: 250px;
     box-shadow: 4px 4px 8px rgb(201, 201, 201);
-    border-radius: 300px 300px 0px 0px;
+    border-radius: 300px 300px 5px 5px;
     text-align: center;
     padding: 30px;
     background: #0597A026;
@@ -100,7 +100,7 @@ body{
     height: 350px;
     width: 250px;
     box-shadow: 4px 4px 8px rgb(201, 201, 201);
-    border-radius: 300px 300px 0px 0px;
+    border-radius: 300px 300px 5px 5px;
     text-align: center;
     padding: 30px;
     background: #477D1126;
@@ -123,6 +123,28 @@ body{
     font-size: 24px;
     text-decoration-line: underline;
     margin-top: 20px;
+}
+
+/* service section start */
+
+.service-img{
+    display: flex;
+    justify-content: space-around;
+}
+.service-name{
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    color: #272727CC;
+    margin-right: 20px;
+}
+.service-container{
+    background-color: #2727270D;
+    padding: 50px 0px;
+    text-align: center;
+    align-items: center;
+    gap: 100px;
+    margin: 150px 60px 0px 60px;
 }
 
 /* Middle section start */
