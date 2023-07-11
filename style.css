@@ -52,6 +52,7 @@ body{
 }
 
 /* Main section title start */
+
 .flower-buy-section{
     height: 150vh;
 }
@@ -69,6 +70,7 @@ body{
 }
 
 /* main section flowers buy section */
+
 .section-images-container{
     display: flex;
     justify-content: space-around;
@@ -124,6 +126,7 @@ body{
 }
 
 /* Middle section start */
+
 .middle-section-main{
     height: 100vh;
     display: flex;
@@ -153,4 +156,42 @@ body{
 /* last section start */
 .last-section{
     height: 100vh;
+}
+.last-section-contain{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.flower-image{
+    width: 200px;
+    margin-top: 50px;
+    box-shadow: 4px 4px 8px rgb(201, 201, 201);
+    border-radius: 2px;
+}
+
+/* last section footer */
+
+.input-type{
+    padding: 7px;
+}
+.background{
+    margin-top: 30px;
+    text-align: center;
+    /* background-image: url("Flower Asset/Rectangle 9.png");
+    align-items: center; */
+    justify-content: center;
+}
+.input-container{
+    width: 185vh;
+    display: flex;
+
+    background-image: url('Flower Asset/Rectangle 9.png');
+    background-size: cover;
+    background-position: center;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0px 0px 40px;
+    border-radius: 5px;
 }
