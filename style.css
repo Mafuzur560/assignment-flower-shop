@@ -172,13 +172,13 @@ body{
 /* last section footer */
 
 .input-type{
-    padding: 7px;
+    padding: 10px 150px 10px 10px;
+    border: 0px;
+    border-radius: 5px;
 }
 .background{
     margin-top: 30px;
     text-align: center;
-    /* background-image: url("Flower Asset/Rectangle 9.png");
-    align-items: center; */
     justify-content: center;
 }
 .input-container{
@@ -191,7 +191,35 @@ body{
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    padding: 10px;
-    margin: 20px 0px 0px 40px;
+    padding: 10px 10px 30px 10px;
+    margin: 60px 0px 0px 40px;
     border-radius: 5px;
+}
+
+/* Footer section start */
+
+.footer-contain{
+    text-align: center;
+    background-color: #111010;
+    padding: 50px 0px;
+    margin-top: 100px;
+}
+.copyright-description{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.section-description-footer{
+    color: #FFFFFFE5;
+    text-align: center;
+    font-weight: 400;
+    line-height: 30px;
+}
+.footer-section-title{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
 }
